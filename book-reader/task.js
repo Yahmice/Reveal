@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             element.classList.add('font-size_active');
             
-            element.classList.remove('font-size_small', 'font-size_big', 'font-size_medium')
+            book.classList.remove('book_fs-small', 'book_fs-big', 'book_fs-medium');
          
             const size = element.getAttribute('data-size');
             if (size) {
@@ -18,3 +18,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }); 
 })
+
